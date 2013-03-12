@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-  <meta name="author" content="Tomas Strand" />
+  <meta name="author" content="{{ AUTHOR }}" />
   <meta name="generator" content="Pelican (http://blog.getpelican.com/)" />
 
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css"/>
@@ -100,7 +100,7 @@
   {% block content %}
   {% endblock %}
 
-  </section><!-- /#content -->
+  </section>
 </div>
 
 
