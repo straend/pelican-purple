@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-  <meta name="author" content="{{ AUTHOR }}" />
+  <meta name="author" content="Tomas Strand" />
   <meta name="generator" content="Pelican (http://blog.getpelican.com/)" />
 
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css"/>
@@ -40,7 +40,6 @@
 </span>
 {% endif %}
 
-{% include 'github.html' %}
 <div id="body-wrapper" class="wrapper">
   <section id="sidebar">
   <hgroup>
@@ -93,6 +92,15 @@
       </li>
     {% endfor %}
     </ul>
+
+  <footer>
+    <ul class="no-list">
+      <li>Powered by</li>
+      <li><a href="http://getpelican.com/">Pelican</a> and</li>
+      <li><a href="https://github.com/straend/pelican-purple">Pelican Purple</a></li>
+    </ul>
+  </footer>
+
   </section>
 
   <section id="content" class="body">
@@ -103,8 +111,7 @@
   </section>
 </div>
 
-
-
-
+{% include 'github.html' %}
+{% include 'google_analytics.html' %}
 </body>
 </html>

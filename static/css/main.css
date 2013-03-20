@@ -80,12 +80,11 @@ ul.social-list a:hover {
     width: 100%;
 }
 
-
 #content {
     width: 100%;
     clear: both;
-    line-height: 1.4em;
-    font-size: 1.1em;
+    line-height: 1.2em;
+    font-size: 1.05em;
 
 }
 #content .no-list{
@@ -142,6 +141,11 @@ header a{
     line-height: 1.5em;
 }
 
+.codehilitetable .linenodiv{
+    line-height: 1.5em;
+}
+
+
 @media screen and (min-width: 720px){
     section#sidebar {
         width: 18%;
@@ -149,6 +153,9 @@ header a{
         text-align: center;
         position: fixed;
         max-width: 200px;
+    }
+    section#sidebar footer li{
+        width: 100%;
     }
     #body-wrapper {
         max-width: 1024px;
@@ -182,4 +189,6 @@ header a{
     ul.social-list span {
         display: inline-block;
     }
+
+
 }
