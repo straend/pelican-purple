@@ -29,3 +29,7 @@ Also implemented is the [Github Ribbon](https://github.com/blog/273-github-ribbo
 GITHUB_URL is set
 
 The [Pelican Latex Plugin](https://github.com/barrysteyn/pelican_plugin-latex) is supported
+
+#####Screenshots
+![Pelican-purple in action](https://raw.github.com/straend/pelican-purple/master/screenshot.png)
+![Pelican-purple in mobile action](https://raw.github.com/straend/pelican-purple/master/screenshot_mobile.png)
