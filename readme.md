@@ -7,7 +7,7 @@ With social icons from [Font Awesome](http://fortawesome.github.com/Font-Awesome
 
 And background from [Subtle Patterns](http://subtlepatterns.com/gradient-squares/)
 
-Watch it in [Action](http://fik1.net/2013/12/this-is-a-theme-testing-post/)
+Watch it in [Action](http://fik1.net/2013/28/this-is-a-theme-testing-post/)
 
 This theme is capable of listing links to Social sites with the SOCIAL tuple in pelican.conf
 There is also the possibility to add a hidden vCard in the source
